@@ -19,7 +19,7 @@ public class ExerciciosWindow {
     @Test
     public void testeJanelaSelenium(){
 
-        driver.findElement(By.xpath("//a[@href='http://www.selenium.dev/']//button[@class='btn btn-info'][contains(text(),'click')]")).click();
+        driver.findElement(By.xpath("//a[@href='https://www.selenium.dev/']//button[@class='btn btn-info'][contains(text(),'click')]")).click();
         Object[] janelas = driver.getWindowHandles().toArray();
         driver.switchTo().window(janelas[1].toString());
         System.out.println(driver.getCurrentUrl());
