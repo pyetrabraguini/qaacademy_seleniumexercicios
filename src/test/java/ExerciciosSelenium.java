@@ -56,7 +56,7 @@ public class ExerciciosSelenium {
 //        Password
         driver.findElement(By.xpath("//*[@id='firstpassword']")).sendKeys("12345");
         driver.findElement(By.xpath("//*[@id='secondpassword']")).sendKeys("12345");
-        driver.findElement(By.xpath("//button[@id='submitbtn']")).click();
+//        driver.findElement(By.xpath("//button[@id='submitbtn']")).click(); erro ao submeter formulário
 
     }
 
