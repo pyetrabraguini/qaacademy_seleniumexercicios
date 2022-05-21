@@ -14,7 +14,7 @@ public class AlertsSelenium {
     @Before
     public void before() {
         driver = new ChromeDriver();
-        driver.get("http://demo.automationtesting.in/Alerts.html");
+        driver.get("file:///C:/Users/wbraguin/OneDrive%20-%20Capgemini/Documents/Alerts.html");
     }
 
     @Test
